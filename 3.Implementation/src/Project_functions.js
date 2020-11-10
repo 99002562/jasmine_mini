@@ -25,3 +25,19 @@ function onSub(){
   $get("spResult").innerText = result;
 
 }
+function onMul(){
+  //take input values
+  const fisrtVal=$get("val1").value;
+  const secondVal=$get("val2").value;
+  const result = mulFunc(fisrtVal, secondVal);
+  $get("spResult").innerText = result;
+
+}
+function onDiv(){
+  //take input values
+  const fisrtVal=$get("val1").value;
+  const secondVal=$get("val2").value;
+  const result = divFunc(fisrtVal, secondVal);
+  $get("spResult").innerText = result;
+
+}
