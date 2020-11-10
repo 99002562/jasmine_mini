@@ -41,3 +41,26 @@ function onDiv(){
   $get("spResult").innerText = result;
 
 }
+
+function onPer(){
+  //take input values
+  const fisrtVal=$get("val1").value;
+  const secondVal=$get("val2").value;
+  const result = PerFunc(fisrtVal, secondVal);
+  $get("spResult").innerText = result;
+
+}
+function onSqr(){
+  //take input values
+  const fisrtVal=$get("val1").value;
+  const secondVal=$get("val2").value;
+  const result = SqrFunc(fisrtVal, secondVal);
+  $get("spResult").innerText = result;
+
+}
+function Clr(){
+  //take input values
+  document.getElementById('val1').value = '';
+  document.getElementById('val2').value = '';
+  
+}
