@@ -13,3 +13,10 @@ const mulFunc = function(v1, v2){
 const divFunc = function(v1, v2){
     return v1 / v2;
 }
+
+const PerFunc = function(v1, v2){
+    return (v1 %v2);
+}
+const SqrFunc = function(v1, v2){
+    return Math.sqrt(v1);
+}
